@@ -17,6 +17,7 @@ public class Gittest {
     public static void main(String[] args) {
         sayHello();
         sayHi();
+        sayGoodbye();
 // TODO code application logic here
     }
     
@@ -26,5 +27,9 @@ public class Gittest {
     
     public static void sayHi(){
         System.out.println("Hi");
+    }
+    
+    public static void sayGoodbye(){
+        System.out.println("Goodbye");
     }
 }
